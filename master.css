@@ -1,0 +1,78 @@
+ html, body {
+ 	margin: 0;
+ 	padding: 0;
+ 	height: 100%;
+ 	width: 100%;
+ }
+
+ .intro {
+ 	height: 90%;
+ 	width: 100%;
+ 	margin: auto;
+ 	background: url(assets/ocean-bg.jpg) no-repeat 50% 50%;
+ 	display: table;
+ 	background-size: cover;
+
+ }
+
+ .intro .inner{
+ 	display: table-cell;
+ 	vertical-align: middle;
+ 	width: 100%;
+ 	max-width: none;
+ }
+
+ .content {
+ 	max-width: 500px;
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+
+ .btn {
+ 	border: solid #F9F3F4 3px;
+ 	border-radius: 9px;
+    font-family: 'Montserrat', serif;
+ 	color: #F9F3F4;
+ 	font-size: 150%;
+ 	padding: 10px 20px;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	position: relative;
+ 	top: 10px;
+ }
+ 
+ .btn:hover {
+ 	color: #99ffcc;
+ 	border: solid #99ffcc 3px;
+
+ } 
+
+
+
+
+ .main-logo {
+ 	position: relative;
+ 	bottom: 140px;
+ 	right: 150px;
+ 	height: 150%;
+ 	width: 150%;
+
+
+ }
+
+
+ p {
+ 	font-size: 200%;
+ 	line-height: 210%;
+ 	text-align: justify;
+ 	margin: 3%;
+ 	font-family: roboto;
+ 	text-transform: bold;
+ }
+
+
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
