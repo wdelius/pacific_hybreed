@@ -6,7 +6,7 @@
  }
 
  .intro {
- 	height: 90%;
+ 	height: 95%;
  	width: 100%;
  	margin: auto;
  	background: url(assets/ocean-bg.jpg) no-repeat 50% 50%;
@@ -50,12 +50,12 @@
 
 
 
- .main-logo {
+ /* .main-logo {
  	position: relative;
  	bottom: 140px;
  	right: 150px;
  	height: 150%;
- 	width: 150%;
+ 	width: 150%; */
 
 
  }
