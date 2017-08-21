@@ -33,12 +33,12 @@
  	border-radius: 9px;
     font-family: 'Montserrat', serif;
  	color: #F9F3F4;
- 	font-size: 150%;
+ 	font-size: 120%;
  	padding: 10px 20px;
  	text-transform: uppercase;
  	text-decoration: none;
  	position: relative;
- 	top: 10px;
+ 	top: 20px;
  }
  
  .btn:hover {
@@ -50,12 +50,10 @@
 
 
 
- /* .main-logo {
+ .main-logo {
  	position: relative;
- 	bottom: 140px;
- 	right: 150px;
- 	height: 150%;
- 	width: 150%; */
+ 	bottom: 100px;
+ 	
 
 
  }
