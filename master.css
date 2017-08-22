@@ -54,18 +54,20 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
     width: 80%;
-
+    
 }
 
 .btn {
 	border: solid #99ffcc 3px;
  	border-radius: 9px;
+    width: 90%;
     font-family: 'Montserrat', serif;
  	color: #99ffcc;
  	font-size: 200%;
  	padding: 10px 20px;
 	text-transform: uppercase;
     text-decoration: none;
+
 
 }
 
