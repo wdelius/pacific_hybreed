@@ -1,4 +1,80 @@
  html, body {
+ 	height: 100%;
+ 	margin: 0;
+ }
+
+.bg-img {
+    /* Background image */
+    background-image: url('assets/water-bg.jpg');
+    opacity: 0.9;
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+    margin: 0;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+.main-logo {
+	height: 60px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+p {
+	font-size: 13px;
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.btn {
+	border: solid #99ffcc 3px;
+ 	border-radius: 9px;
+    font-family: 'Montserrat', serif;
+ 	color: #99ffcc;
+ 	font-size: 180%;
+ 	padding: 10px 20px;
+	text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+ .btn:hover {
+ 	color: #F9F3F4;
+ 	border: solid #F9F3F4 3px;
+
+ } 
+
+ /* html, body {
  	margin: 0;
  	padding: 0;
  	height: 100%;
@@ -6,7 +82,7 @@
  }
 
  .intro {
- 	height: 95%;
+ 	height: 100%;
  	width: 100%;
  	margin: auto;
  	background: url(assets/ocean-bg.jpg) no-repeat 50% 50%;
@@ -19,7 +95,7 @@
  	display: table-cell;
  	vertical-align: middle;
  	width: 100%;
- 	max-width: none;
+ 	max-width: none; 
  }
 
  .content {
@@ -50,27 +126,18 @@
 
 
 
- .main-logo {
- 	position: relative;
- 	bottom: 100px;
- 	
+ .main-logo { 	
+ 	height: 60px;
 
 
  }
 
 
- p {
- 	font-size: 140%;
- 	line-height: 210%;
- 	text-align: justify;
- 	margin: 3%;
- 	font-family: roboto;
- 	text-transform: bold;
- }
 
 
 
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif; */
+
 
