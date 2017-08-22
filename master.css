@@ -6,7 +6,7 @@
 .bg-img {
     /* Background image */
     background-image: url('assets/water-bg.jpg');
-    opacity: 0.9;
+    opacity: 1.8;
     /* Full-screen */
     height: 100%;
     /* Center the background image */
@@ -43,7 +43,7 @@
 }
 
 p {
-	font-size: 13px;
+	font-size: 15px;
 }
 
 /* Position text in the middle */
@@ -53,6 +53,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 80%;
 
 }
 
@@ -61,7 +62,7 @@ p {
  	border-radius: 9px;
     font-family: 'Montserrat', serif;
  	color: #99ffcc;
- 	font-size: 180%;
+ 	font-size: 200%;
  	padding: 10px 20px;
 	text-transform: uppercase;
     text-decoration: none;
