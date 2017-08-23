@@ -53,13 +53,13 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 80%;
-    
+    width: 65%;
+    border: solid #99ffcc 3px;
+    border-radius: 12px;
+
 }
 
 .btn {
-	border: solid #99ffcc 3px;
- 	border-radius: 9px;
     width: 90%;
     font-family: 'Montserrat', serif;
  	color: #99ffcc;
@@ -68,10 +68,16 @@ p {
 	text-transform: uppercase;
     text-decoration: none;
 
+}
+
+.btn:hover {
+    color: #F9F3F4;
+    /* border: solid #F9F3F4 3px; */
 
 }
 
- .btn:hover {
+
+ .middle:hover {
  	color: #F9F3F4;
  	border: solid #F9F3F4 3px;
 
