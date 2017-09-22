@@ -6,7 +6,6 @@
 .bg-img {
     /* Background image */
     background-image: url('assets/water-bg.jpg');
-    opacity: 1.8;
     /* Full-screen */
     height: 100%;
     /* Center the background image */
